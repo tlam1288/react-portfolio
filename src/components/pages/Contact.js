@@ -1,4 +1,5 @@
 import React from "react";
+import PDF from "../../assets/images/ResumeTim.pdf";
 
 function Contact() {
   return (
@@ -8,13 +9,13 @@ function Contact() {
       </div>
       <div class="card-body">
         <h5 class="card-title">
-          <a href="linkedin.com/in/timothy-lam-8551b315">LinkedIn</a>
+          <a href="https://linkedin.com/in/timothy-lam-8551b315">LinkedIn</a>
         </h5>
         <h5 class="card-title">
           <a href="https://github.com/tlam1288">GitHub</a>
         </h5>
         <h5 class="card-title">
-          <a href="assets/images/ResumeTim.pdf">Resume</a>
+          <a href={PDF}>Resume</a>
         </h5>
         <h5 class="card-title">Email: Tlam1288@gmail.com</h5>
       </div>

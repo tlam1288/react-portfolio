@@ -7,8 +7,8 @@ function About() {
         <div class="col-sm">
           <img
             src={require("../../assets/images/Tim.jpg")}
-            class="img-fluid mt-5 picture"
-            alt="Profile picture of Timothy Lam"
+            className="img-fluid mt-5 picture"
+            alt="Timothy Lam"
           />
         </div>
         <div class="col-sm mt-5">
